@@ -1,0 +1,18 @@
+[
+    {
+      "id": 1,
+      "band_name": "Ellens hub",
+      "genre": "brass",
+      "img_url": null,
+      "info_url": null,
+      "porch_address": "amy's house"
+    },
+    {
+      "id": 2,
+      "band_name": "lore weavers",
+      "genre": "mythical",
+      "img_url": null,
+      "info_url": null,
+      "porch_address": "idk"
+    }
+]
