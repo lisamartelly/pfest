@@ -279,8 +279,9 @@ h2 {
 	position: absolute;
   font-size: 24px;
 	z-index: 1;
-	top: -17px;
+	top: -15.5px;
 	left: calc(50% - 20px);
+  transform: rotate(-11.5deg);
 	/* width: 24px;
 	height: 24px; */
 	/* background-color: #f60;

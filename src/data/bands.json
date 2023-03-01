@@ -3,12 +3,60 @@
       "id": 1,
       "band_name": "Ellens hub",
       "genre": "brass",
-      "img_url": null,
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
       "info_url": null,
       "porch_address": "amy's house"
     },
     {
       "id": 2,
+      "band_name": "lore weavers",
+      "genre": "mythical",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
+      "info_url": null,
+      "porch_address": "idk"
+    },
+    {
+      "id": 3,
+      "band_name": "Ellens hub",
+      "genre": "brass",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
+      "info_url": null,
+      "porch_address": "amy's house"
+    },
+    {
+      "id": 4,
+      "band_name": "lore weavers",
+      "genre": "mythical",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
+      "info_url": null,
+      "porch_address": "idk"
+    },
+    {
+      "id": 5,
+      "band_name": "Ellens hub",
+      "genre": "brass",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
+      "info_url": null,
+      "porch_address": "amy's house"
+    },
+    {
+      "id": 6,
+      "band_name": "lore weavers",
+      "genre": "mythical",
+      "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
+      "info_url": null,
+      "porch_address": "idk"
+    },
+    {
+      "id": 7,
+      "band_name": "Ellens hub",
+      "genre": "brass",
+      "img_url": null,
+      "info_url": null,
+      "porch_address": "amy's house"
+    },
+    {
+      "id": 8,
       "band_name": "lore weavers",
       "genre": "mythical",
       "img_url": null,
