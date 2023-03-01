@@ -9,15 +9,15 @@
     },
     {
       "id": 2,
-      "band_name": "lore weavers",
-      "genre": "mythical",
+      "band_name": "zatmosphere",
+      "genre": "rap",
       "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
       "info_url": null,
       "porch_address": "idk"
     },
     {
       "id": 3,
-      "band_name": "Ellens hub",
+      "band_name": "Trampled by turtles",
       "genre": "brass",
       "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
       "info_url": null,
@@ -25,8 +25,8 @@
     },
     {
       "id": 4,
-      "band_name": "lore weavers",
-      "genre": "mythical",
+      "band_name": "50 cent",
+      "genre": "rap",
       "img_url": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Beatles_ad_1965_just_the_beatles_crop.jpg",
       "info_url": null,
       "porch_address": "idk"
