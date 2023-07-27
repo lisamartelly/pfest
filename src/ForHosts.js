@@ -15,7 +15,7 @@ const ForHosts = () => {
                 
 
                 <p>
-                On <b>August 19th,</b> bands will be scattered across porches throughout the Wedge putting on free concerts for the community.  
+                On <b>August 19th,</b> bands will be scattered across porches throughout the Wedge neighborhood in Uptown putting on free concerts for the community.  
                 Neighbors can gather, wander, and experience music all around them.  
                 </p>
                 <div class="divider div-transparent div-dot"></div>
@@ -53,6 +53,7 @@ const ForHosts = () => {
                       <li>Your permission to host musicians on your porch, yard, stoop, balcony, or driveway</li>
                       <li>Access to an outlet/electricity</li>
                       <li>Willingness to communicate with your assigned band before the event</li>
+                      <li>This year we are limiting Uptown Porchfest to locations in just the <a href="https://www.thewedge.org/neighborhood.html">Wedge neighborhood</a></li>
                     </ul>
                   </div>
                 <div>

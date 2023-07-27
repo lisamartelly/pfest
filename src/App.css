@@ -46,6 +46,8 @@ footer  {
 
 .padded-container {
   padding: 24px 48px 0px 48px;
+  max-width:1250px;
+    margin:auto;
 }
 
 nav {
@@ -132,6 +134,13 @@ body {
   width: 100%;
 }
 
+.for-bands-banner {
+  margin-top: 30px;
+  color: #DFFF9C;
+  background-color: magenta;
+  padding: 30px 20px 10px 20px;
+}
+
 .homepage-hero {
   background: linear-gradient(180deg, rgba(78, 79, 84, 0.7) 0%, rgba(255,255,255,0) 90%), url(./img/Okahurst-2019.jpg);
   background-size: cover;
@@ -145,7 +154,9 @@ body {
   margin-top: -2px;
 }
 
-
+.left-justify {
+  text-align: left;
+}
 
 .script {
   font-family: 'Carena';

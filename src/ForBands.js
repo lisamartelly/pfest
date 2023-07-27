@@ -16,6 +16,9 @@ const ForBands = () => {
           </h1>
               
         </div>
+        <div className="for-bands-banner">
+          <h2 >We are no longer accepting band applications for 2023 Porchfest! We already have a long wait-list as it is. Please come back and apply next year!</h2>
+        </div>
         <div className="padded-container">
           <div className="half-flex">
             <div className="neon-box" >
@@ -65,15 +68,14 @@ const ForBands = () => {
                     <h2>More details: </h2>
                     <p>
                     <p>
-                      At Porchfest, bands will be scattered throughout the Wedge playing overlapping concerts on porches, in yards, wherever they fit. Attendees will wander the neighborhood listening to your music. 
-                      Our goal is to help connect Minnesotans to local bands while putting on an awesome event that celebrates the liveliness and cultural richness of the Wedge.
+                      At Porchfest, bands will be scattered throughout the Wedge neighborhood of Uptown playing overlapping concerts on porches, in yards, wherever they fit. Attendees will wander the neighborhood listening to your music. 
+                      Our goal is to help connect Minnesotans to local bands while putting on an awesome event that celebrates the liveliness and cultural richness of Uptown.
                     </p>
                     </p>
                     <h3>How to get involved:</h3>
                     <ul className="x">
-                      <li>Click the button below to apply to play</li>
-                      <li>Make sure you include or send a sample of your music to porchfestinthewedge@gmail.com </li>
-                      <li>Keep an eye out for an email containing your selection decision as a Porchfest Band.</li>
+                      <li>Click the button below to inquire via form, or just email uptownporchfest@gmail.com</li>
+                      <li>Keep an eye out for an email containing your Porchfest details!</li>
                     </ul>
                   </div>
                 <div>
@@ -87,11 +89,11 @@ const ForBands = () => {
 
                 <div className="centered">
                   <div className="" style={{marginRight : 20}}>
-                    <a href="https://forms.gle/xGLrAst1AeNckZbc6" className="ctaPrimary">Apply to play</a>
+                    <a href="https://forms.gle/xGLrAst1AeNckZbc6" className="ctaPrimary">Form Submission</a>
                   </div>
 
                   <div >
-                    <a href="https://forms.gle/3Pea3UjkafwKizbX7" className="ctaPrimary">Request more info</a>
+                    <a href="mailto:uptownporchfest@gmail.com" className="ctaPrimary">Email Us</a>
                   </div>
                 </div>
             

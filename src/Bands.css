@@ -1,6 +1,8 @@
 
 .bands-container {
     min-height: 100vh;
+    max-width:1250px;
+    margin:auto;
 }
 
 .sort-info {
@@ -11,15 +13,56 @@
 .tiles-container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .band-tile {
-    border-style: dotted;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* align-items: center; */
+    width: 45%;
+    margin-bottom: 20px;
+    background-color: #fafb9d;
+  border-radius: 60px 20px;
+  text-align: justify;
 }
 
 .tile-image {
-    max-height: 100px;
-    max-width: 80px;
+    max-height: 350px;
+    width: 100%;
+    display:flex;
+    align-content:center;
+    object-fit: cover;
+    border-radius: 60px 20px 0px 0px;
+
+}
+
+.band-info-text {
+    padding: 24px;
+    white-space: pre-line;
+}
+
+.band-genre {
+    text-align: center;
+    margin-top:0;
+}
+
+.band-social-icons {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:20px
+}
+
+.band-social-icons a {
+    margin: 0 4px
+}
+
+.band-name {
+    margin-bottom:5px;
+}
+@media (max-width: 950px) {
+    .band-tile {
+        width: 90%;
+    }
 }

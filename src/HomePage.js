@@ -1,8 +1,14 @@
 import img1 from "./img/Kinfolk-7.jpg"
-import img2 from "./img/oakhurst-porchfest2.jpg"
 import img3 from "./img/replacements2.jpg"
 import img4 from "./img/bing-porchfest.png"
-import img5 from "./img/Okahurst-2019.jpg"
+import wrecktangleLogo from "./img/WTP-LOGO.png"
+import ctsLogo from "./img/cts-logo.jpg"
+import redCowLogo from "./img/redcowlogo.png"
+import ugPrintingLogo from "./img/Underground_Printing_Logo.png"
+import upDownLogo from "./img/updownlogo.png"
+
+import './HomePage.css';
+
 
 
 
@@ -17,7 +23,7 @@ const HomePage = () => {
                     Introducing:
                 </h2>
                 <h1>
-                    Porchfest in the Wedge
+                    Uptown Porchfest
                 </h1>
             </div>
 
@@ -31,7 +37,7 @@ const HomePage = () => {
                 <div className="golden-flex">
                   <div className="gold-left"><h2>What?</h2></div>
                   <div className="gold-right">
-                    <h3>A neighborhood music festival that's free and fun for all ages</h3>
+                    <h3>A free and fun neighborhood music festival</h3>
                   </div>
                 </div>
                 
@@ -47,7 +53,7 @@ const HomePage = () => {
                 <div className="golden-flex">
                   <div className="gold-left"><h2>Where?</h2></div>
                   <div className="gold-right">
-                    <h3>Porches, yards, and driveways throughout the Wedge</h3>
+                    <h3 className="left-justify">Porches, yards, and driveways throughout the Wedge neighborhood of Uptown, Minneapolis</h3>
                   </div>
                 </div>
                 <div className="centered">
@@ -79,7 +85,7 @@ const HomePage = () => {
                 wandering the neighborhood.
               </p>
               <div class="divider div-transparent div-dot"></div>
-              <p>  It provides an opportunity to explore the Wedge in an intimate and novel way. Attendees can
+              <p>  It provides an opportunity to explore the Wedge neighborhood of Uptown in an intimate and novel way. Attendees can
                 discover new musicians, support local businesses, and celebrate the diverse, eclectic history 
                 of this neighborhood. 
               </p>
@@ -101,7 +107,7 @@ const HomePage = () => {
             <div className="white-box">
               <h2>A Musical Mainstay</h2>
               <p>Countless musicians have found their footing in this neighborhood.</p>
-              <p>The Wedge has a history of diversity, creativity, and community. It is both a 
+              <p>Uptown has a history of diversity, creativity, and community. It is both a 
                 destination and a home for artists and those that appreciate them. 
               </p>
               <p>
@@ -124,6 +130,20 @@ const HomePage = () => {
             <div className="home-image-half">
                 <img src = {img3} alt="pfest" id="img3" className="fancy-img"/>
             </div>
+          </div>
+
+          <div className="padded-container" style={{marginTop : 30}}>
+           <h2>Thank you to our Sponsors!</h2>
+           <p>That's right, we got sponsors! These local businesses generously supported this event through in-kind donations, services, thank-you's for bands and hosts, 
+            and funds towards permits and logistics. We are grateful to have them in our community!</p>
+            <div className="sponsorImages">
+              <a href="https://wrecktanglepizza.com/"><img className="sponsorImage" src = {wrecktangleLogo} alt="wrecktangle logo" id="wrecktangleLogo"/></a>
+              <a href="https://www.instagram.com/calltheshotsproduction/"><img className="sponsorImage" src = {ctsLogo} alt="call the shots Logo" id="ctsLogo"/></a>
+              <a href="https://redcowmn.com/minneapolis-uptown/"><img className="sponsorImage" src = {redCowLogo} alt="red cow logo" id="redCowLogo"/></a>
+              <a href="https://undergroundshirts.com/pages/custom-t-shirt-printing-minneapolis-mn"><img className="sponsorImage" src = {ugPrintingLogo} alt="underground printing logo" id="ugPrintingLogo"/></a>
+              <a href="https://www.updownarcadebar.com/minneapolis/"><img className="sponsorImage" src = {upDownLogo} alt="updown logo" id="upDownLogo"/></a>
+            </div>
+
           </div>
         </div>
         </div>

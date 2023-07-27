@@ -37,7 +37,7 @@ const FAQ = () => {
                   What if it rains?
               </h2>
               <ul className="x">
-                <li>This event will go on rain or shine!</li>
+                <li>This event will go on given light/passing-rain or drizzle! If it's terrible, dangerous, torrential rain, we may pivot to a rain date of Sunday, Aug 20. Check back for info in that case.</li>
               </ul>
             </div>
 
@@ -59,8 +59,7 @@ const FAQ = () => {
               </h2>
               <ul className="x">
                 <li>This event can't happen without musicians and porches! Please sign up to <Link to="/for-hosts">host</Link> or <Link to="/for-bands">play</Link> if you have either of those things going for you.</li>
-                <li>Day-of volunteers are also appreciated! Please email <a href="mailto:porchfestinthewedge@gmail.com">porchfestinthewedge@gmail.com</a> if you're interested in helping.</li>
-                <li>Interested parties can also sponsor a porch to help with event costs - email <a href="mailto:porchfestinthewedge@gmail.com">porchfestinthewedge@gmail.com</a> for more info.</li>
+                <li>Day-of volunteers are also appreciated! Please email <a href="mailto:uptownporchfest@gmail.com">uptownporchfest@gmail.com</a> if you're interested in helping.</li>
               </ul>
             </div>
 
@@ -70,8 +69,7 @@ const FAQ = () => {
               </h2>
               <ul className="x">
                 <li>
-                  Mueller park has dedicated indoor bathrooms. There will also be portapotties stationed throughout the neighborhood. 
-                  Check out the event map to see their locations.
+                  Mueller park has 4 dedicated indoor bathroom stalls. There will also be portapotties stationed at the park for extra access. 
                 </li>
               </ul>
             </div>
@@ -83,8 +81,9 @@ const FAQ = () => {
                 What's there to eat and drink?              
               </h2>
               <ul className="x">
-                <li>The Wedge is surrounded by tons of amazing local businesses! Many of them have promotions going during porchfest, so make sure to pop in anywhere that looks appetizing.
-                  There will also be a few food trucks and beverage stations at Mueller park. More details to come on that!
+                <li>The Wedge is surrounded by tons of amazing local businesses! Pop in anywhere that looks appetizing.
+                  Attendees are also encouraged to pack snacks and drinks for themselves and maybe even to share with neighbors as they'd like.
+                  There will also be a few food trucks and beverage stations at Mueller park. Make sure to check it out!
                 </li>
               </ul>
             </div>
