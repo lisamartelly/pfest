@@ -6,11 +6,17 @@ import ctsLogo from "./img/cts-logo.jpg"
 import redCowLogo from "./img/redcowlogo.png"
 import ugPrintingLogo from "./img/Underground_Printing_Logo.png"
 import upDownLogo from "./img/updownlogo.png"
+import upsLogo from "./img/ups-store-logo.jpg"
+import fireAndNiceLogo from "./img/70710logo.png"
+import mapPdf from "./resources/Porchfest-Map-Color.pdf"
+
 
 import './HomePage.css';
 
 
-
+const countDownDate = new Date("Aug 19, 2023 12:00:00").getDate();
+const now = new Date().getDate();
+const daysAway = countDownDate - now;
 
 
 const HomePage = () => {
@@ -28,7 +34,15 @@ const HomePage = () => {
             </div>
 
 
-      <div class="page-content">
+      <div className="page-content">
+        <div className="padded-container">
+          <div className="homepage-info-banner">
+            <h2>Porchfest was AWESOME!</h2>
+            <p>That went better than we could have possibly imagined!!! Thank you so much to the bands, hosts, volunteers, and local sponsors who made it possible. You were all amazing.</p>
+            <p>We are already so excited for next year. If you have ideas for improvements or enhancements, please email them to us! uptownporchfest@gmail.com or <b><a target="_blank" rel="noreferrer" href="https://forms.gle/4rKCPgBQFtTxxaJF7">fill out this short form</a></b> </p>
+          </div>
+        </div>
+        
 
           
           <div className="half-flex padded-container">
@@ -142,6 +156,9 @@ const HomePage = () => {
               <a href="https://redcowmn.com/minneapolis-uptown/"><img className="sponsorImage" src = {redCowLogo} alt="red cow logo" id="redCowLogo"/></a>
               <a href="https://undergroundshirts.com/pages/custom-t-shirt-printing-minneapolis-mn"><img className="sponsorImage" src = {ugPrintingLogo} alt="underground printing logo" id="ugPrintingLogo"/></a>
               <a href="https://www.updownarcadebar.com/minneapolis/"><img className="sponsorImage" src = {upDownLogo} alt="updown logo" id="upDownLogo"/></a>
+              <a href="https://locations.theupsstore.com/mn/minneapolis/2801-hennepin-ave-s"><img className="sponsorImage" src = {upsLogo} alt="ups store logo" id="upsLogo"/></a>
+              <a href="https://www.fireandnicemn.com/"><img className="sponsorImage" src = {fireAndNiceLogo} alt="fire and nice logo" id="fireAndNiceLogo"/></a>
+
             </div>
 
           </div>

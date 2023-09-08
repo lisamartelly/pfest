@@ -17,7 +17,7 @@ const ForBands = () => {
               
         </div>
         <div className="for-bands-banner">
-          <h2 >We are no longer accepting band applications for 2023 Porchfest! We already have a long wait-list as it is. Please come back and apply next year!</h2>
+          <h2 >We are no longer accepting band applications for 2023 Porchfest! We already have a long wait-list as it is. Please apply next year!</h2>
         </div>
         <div className="padded-container">
           <div className="half-flex">

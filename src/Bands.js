@@ -1,7 +1,7 @@
 
 import data from "./data/bands.json";
 import './Bands.css';
-import backupImg from './img/3_fiddlers_in_silhouette.svg.png';
+// import backupImg from './img/3_fiddlers_in_silhouette.svg.png';
 import { useEffect, useState } from "react";
 
 const BandTile = ({bandInfo}) => {
@@ -9,7 +9,8 @@ const BandTile = ({bandInfo}) => {
     <a href={bandInfo.img_url}><img className="tile-image" src={bandInfo.img_url}/></a>
     <div className="band-info-text">
       <h2 className="band-name">{bandInfo.band_name}</h2>
-      <h3 className="band-genre">{bandInfo.genre}</h3>
+      <h3 className="band-genre"><i>{bandInfo.genre}</i></h3>
+      <h3 className="band-genre">{bandInfo.porch_address}  |  {bandInfo.time}</h3>
       <p className="band-bio">{bandInfo.bio}</p>
     </div>
       <div className="band-social-icons">
@@ -86,7 +87,7 @@ const Bands = () => {
   return (
     <div className="">
       <div className="bands-container padded-container">
-        <h2>Performance locations and set times TBA!</h2>
+        <h2>Performance locations and set times now posted!</h2>
         {/* <div className="sort-info">
           <h3>Sort by: </h3>
           <button onClick={() => setSortBy('alphabetical')}>Alphabetical</button>

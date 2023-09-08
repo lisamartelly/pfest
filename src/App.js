@@ -91,7 +91,7 @@ function App() {
               Contact: <a href="mailto:uptownporchfest@gmail.com">uptownporchfest @ gmail.com</a>
               </div>
               <div >
-                <p>Website design, development, and hosting donated by <a href="mailto:lisamartelly@gmail.com">Martelly Media</a></p>
+                <p>Website design, development, and hosting donated by <a href="mailto:martelly.lisa@gmail.com">Martelly Media</a></p>
                 <p style={{marginBottom:0}}>Footer image by <a href="http://chrisdummer.com/">Chris Dummer</a></p>
               </div>
               

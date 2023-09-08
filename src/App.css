@@ -154,6 +154,22 @@ body {
   margin-top: -2px;
 }
 
+.homepage-info-banner {
+  padding: 24px;
+  border-radius: 60px 20px;
+  text-align: justify;
+  background-color: blanchedalmond;
+}
+
+.homepage-info-banner h3.centered {
+  text-align: center;
+  margin-top:0;
+}
+
+.homepage-info-banner h2 {
+  margin-bottom:10px;
+}
+
 .left-justify {
   text-align: left;
 }
