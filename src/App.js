@@ -42,7 +42,7 @@ function App() {
               <Link id="logo-link" to="/">
                   <div id="logo-div">
                     <p className="script">Uptown Porchfest</p> 
-                    <p className="date">Aug 19, 2023</p>
+                    <p className="date">Aug 17, 2024</p>
                   </div>
               </Link>
               <div id="ig-div">

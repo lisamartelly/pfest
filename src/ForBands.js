@@ -17,7 +17,7 @@ const ForBands = () => {
               
         </div>
         <div className="for-bands-banner">
-          <h2 >We are no longer accepting band applications for 2023 Porchfest! We already have a long wait-list as it is. Please apply next year!</h2>
+          <h2 >Applications to play in 2024 Porchfest will be open April 1 - June 1. We can't wait to hear from you!</h2>
         </div>
         <div className="padded-container">
           <div className="half-flex">
@@ -35,11 +35,11 @@ const ForBands = () => {
 
                 <div className="centered">
                   <div className="" style={{marginRight : 20}}>
-                    <a href="https://forms.gle/xGLrAst1AeNckZbc6" className="ctaPrimary">Apply to play</a>
+                    <a className="ctaPrimary" rel="noreferrer" target="_blank">Apply to play - Apr 1</a>
                   </div>
 
                   <div >
-                    <a href="https://forms.gle/3Pea3UjkafwKizbX7" className="ctaPrimary">Request more info</a>
+                    <a href="https://forms.gle/yvXUSaUVUsw2gYUGA" rel="noreferrer" target="_blank" className="ctaPrimary">Request more info</a>
                   </div>
                 </div>
               </div>
@@ -80,20 +80,20 @@ const ForBands = () => {
                   </div>
                 <div>
                   <p>
-                  Bands will be assigned a porch as well as a timeslot between <b>1pm - 5pm on August 19th.</b> Bands are <b>responsible for bringing their own equipment.</b>                </p>
+                  Bands will be assigned a porch as well as a timeslot between <b>1pm - 5pm on August 17th.</b> Bands are <b>responsible for bringing their own equipment.</b>                </p>
                   <p>
-                  As an entirely volunteer-organized, inaugural, grassroots event, we do not have funding to pay bands directly.  Bands are highly encouraged to have a spot for tips (signage will be provided as well), sell merch, and advertise future events they'll be playing at. 
+                  As an entirely volunteer-organized, grassroots event, we do not have funding to pay bands directly.  Bands are highly encouraged to have a spot for tips (signage will be provided as well), sell merch, and advertise future events they'll be playing at. 
                   </p>
                   
                 </div>
 
                 <div className="centered">
                   <div className="" style={{marginRight : 20}}>
-                    <a href="https://forms.gle/xGLrAst1AeNckZbc6" className="ctaPrimary">Form Submission</a>
+                    <a className="ctaPrimary" rel="noreferrer" target="_blank">Apply to Play - Apr 1</a>
                   </div>
 
                   <div >
-                    <a href="mailto:uptownporchfest@gmail.com" className="ctaPrimary">Email Us</a>
+                    <a href="mailto:uptownporchfest@gmail.com" rel="noreferrer" target="_blank" className="ctaPrimary">Email Us</a>
                   </div>
                 </div>
             

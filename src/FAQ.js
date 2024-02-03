@@ -37,7 +37,7 @@ const FAQ = () => {
                   What if it rains?
               </h2>
               <ul className="x">
-                <li>This event will go on given light/passing-rain or drizzle! If it's terrible, dangerous, torrential rain, we may pivot to a rain date of Sunday, Aug 20. Check back for info in that case.</li>
+                <li>This event will go on given light/passing-rain or drizzle! If it's terrible, dangerous, torrential rain, we may pivot to a rain date of Sunday, Aug 18. Check back for info in that case.</li>
               </ul>
             </div>
 

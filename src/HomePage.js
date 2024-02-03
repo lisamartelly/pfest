@@ -1,20 +1,20 @@
 import img1 from "./img/Kinfolk-7.jpg"
 import img3 from "./img/replacements2.jpg"
 import img4 from "./img/bing-porchfest.png"
-import wrecktangleLogo from "./img/WTP-LOGO.png"
-import ctsLogo from "./img/cts-logo.jpg"
-import redCowLogo from "./img/redcowlogo.png"
-import ugPrintingLogo from "./img/Underground_Printing_Logo.png"
-import upDownLogo from "./img/updownlogo.png"
-import upsLogo from "./img/ups-store-logo.jpg"
-import fireAndNiceLogo from "./img/70710logo.png"
-import mapPdf from "./resources/Porchfest-Map-Color.pdf"
+// import wrecktangleLogo from "./img/WTP-LOGO.png"
+// import ctsLogo from "./img/cts-logo.jpg"
+// import redCowLogo from "./img/redcowlogo.png"
+// import ugPrintingLogo from "./img/Underground_Printing_Logo.png"
+// import upDownLogo from "./img/updownlogo.png"
+// import upsLogo from "./img/ups-store-logo.jpg"
+// import fireAndNiceLogo from "./img/70710logo.png"
+// import mapPdf from "./resources/Porchfest-Map-Color.pdf"
 
 
 import './HomePage.css';
 
 
-const countDownDate = new Date("Aug 19, 2023 12:00:00").getDate();
+const countDownDate = new Date("Aug 17, 2024 12:00:00").getDate();
 const now = new Date().getDate();
 const daysAway = countDownDate - now;
 
@@ -26,7 +26,7 @@ const HomePage = () => {
         <div className="homepage" id="homepage">
             <div className="homepage-hero">
                 <h2>
-                    Introducing:
+                    another year of...
                 </h2>
                 <h1>
                     Uptown Porchfest
@@ -35,13 +35,13 @@ const HomePage = () => {
 
 
       <div className="page-content">
-        <div className="padded-container">
+        {/* <div className="padded-container">
           <div className="homepage-info-banner">
-            <h2>Porchfest was AWESOME!</h2>
-            <p>That went better than we could have possibly imagined!!! Thank you so much to the bands, hosts, volunteers, and local sponsors who made it possible. You were all amazing.</p>
-            <p>We are already so excited for next year. If you have ideas for improvements or enhancements, please email them to us! uptownporchfest@gmail.com or <b><a target="_blank" rel="noreferrer" href="https://forms.gle/4rKCPgBQFtTxxaJF7">fill out this short form</a></b> </p>
+            <h2>Porchfest Round 2</h2>
+            <p>After a successful first year, we're back for more porchfest!</p>
+            <p>Host applications are open now. Band applications will be open April 1 - June 1.</p>
           </div>
-        </div>
+        </div> */}
         
 
           
@@ -58,8 +58,16 @@ const HomePage = () => {
                 <div className="golden-flex">
                   <div className="gold-left"><h2>When?</h2></div>
                   <div className="gold-right">
-                    <h3 style={{marginBottom:0}}>August 19, 2023</h3>
+                    <h3 style={{marginBottom:0}}>August 17, 2024</h3>
                     <h3 style={{marginTop:0}}>1pm - 5pm</h3>
+                  </div>
+                </div>
+
+                <div className="golden-flex">
+                  <div className="gold-left"><h2>How?</h2></div>
+                  <div className="gold-right">
+                    <h3 style={{marginBottom:0}}>Porch signup: Feb 1 - July 1</h3>
+                    <h3 style={{marginTop:0}}>Band apps: Apr 1 - June 1</h3>
                   </div>
                 </div>
                
@@ -146,7 +154,7 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className="padded-container" style={{marginTop : 30}}>
+          {/* <div className="padded-container" style={{marginTop : 30}}>
            <h2>Thank you to our Sponsors!</h2>
            <p>That's right, we got sponsors! These local businesses generously supported this event through in-kind donations, services, thank-you's for bands and hosts, 
             and funds towards permits and logistics. We are grateful to have them in our community!</p>
@@ -161,7 +169,7 @@ const HomePage = () => {
 
             </div>
 
-          </div>
+          </div> */}
         </div>
         </div>
       </div>

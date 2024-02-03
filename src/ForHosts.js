@@ -15,7 +15,7 @@ const ForHosts = () => {
                 
 
                 <p>
-                On <b>August 19th,</b> bands will be scattered across porches throughout the Wedge neighborhood in Uptown putting on free concerts for the community.  
+                On <b>August 17th,</b> bands will be scattered across porches throughout the Wedge neighborhood in Uptown putting on free concerts for the community.  
                 Neighbors can gather, wander, and experience music all around them.  
                 </p>
                 <div class="divider div-transparent div-dot"></div>
@@ -26,11 +26,11 @@ const ForHosts = () => {
 
                 <div className="centered">
                   <div className="" style={{marginRight : 20}}>
-                    <a href="https://forms.gle/GFGwCTTVkAZwy3Ke7" className="ctaPrimary">Sign up to host</a>
+                    <a href="https://forms.gle/3awqRCfWtpoxvcMr7" rel="noreferrer" target="_blank" className="ctaPrimary">Sign up to host</a>
                   </div>
 
                   <div >
-                    <a href="https://forms.gle/3Pea3UjkafwKizbX7" className="ctaPrimary">Request more info</a>
+                    <a href="https://forms.gle/yvXUSaUVUsw2gYUGA" rel="noreferrer" target="_blank" className="ctaPrimary">Request more info</a>
                   </div>
                 </div>
                 
@@ -53,7 +53,7 @@ const ForHosts = () => {
                       <li>Your permission to host musicians on your porch, yard, stoop, balcony, or driveway</li>
                       <li>Access to an outlet/electricity</li>
                       <li>Willingness to communicate with your assigned band before the event</li>
-                      <li>This year we are limiting Uptown Porchfest to locations in just the <a href="https://www.thewedge.org/neighborhood.html">Wedge neighborhood</a></li>
+                      <li>As with last year, this year we will likely limit Uptown Porchfest to locations in just the <a href="https://www.thewedge.org/neighborhood.html">Wedge neighborhood</a>. BUT folks living in Whittier and South Uptown are encouraged to apply if we have overwhelming demand!</li>
                     </ul>
                   </div>
                 <div>
@@ -61,7 +61,7 @@ const ForHosts = () => {
                     <b>Musicians will provide equipment, we'll provide the volunteers, you provide the space!</b>
                   </p>
                   <p>
-                    If you want to be a founding porch in this inaugural community event, click the sign up button and an event organizer will reach out to you! 
+                    If you want to play a key role in making this community event successful, click the sign up button and an event organizer will reach out to you! 
                     Make sure to get your application in fast as early applications will receive priority. 
                   </p>
                   
@@ -69,11 +69,11 @@ const ForHosts = () => {
 
                 <div className="centered">
                   <div className="" style={{marginRight : 20}}>
-                    <a href="https://forms.gle/GFGwCTTVkAZwy3Ke7" className="ctaPrimary">Sign up to host</a>
+                    <a href="https://forms.gle/3awqRCfWtpoxvcMr7" rel="noreferrer" target="_blank" className="ctaPrimary">Sign up to host</a>
                   </div>
 
                   <div >
-                    <a href="https://forms.gle/3Pea3UjkafwKizbX7" className="ctaPrimary">Request more info</a>
+                    <a href="https://forms.gle/yvXUSaUVUsw2gYUGA" rel="noreferrer" target="_blank" className="ctaPrimary">Request more info</a>
                   </div>
                 </div>
             

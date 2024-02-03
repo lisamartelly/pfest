@@ -87,16 +87,16 @@ const Bands = () => {
   return (
     <div className="">
       <div className="bands-container padded-container">
-        <h2>Performance locations and set times now posted!</h2>
+        <h2>Stay tuned - applications open from April 1 - June 1!</h2>
         {/* <div className="sort-info">
           <h3>Sort by: </h3>
           <button onClick={() => setSortBy('alphabetical')}>Alphabetical</button>
           <button onClick={() => setSortBy('reverseAlphabetical')}>Reverse Alphabetical</button>
           <button onClick={() => setSortBy('genre')}>Genre</button>
         </div> */}
-        <div className="tiles-container">
+        {/* <div className="tiles-container">
           {sortedData.map(band => <BandTile bandInfo={band}/>)}
-        </div>
+        </div> */}
       </div>
     </div>
       
