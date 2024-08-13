@@ -16,9 +16,9 @@ const ForBands = () => {
           </h1>
               
         </div>
-        <div className="for-bands-banner">
+        {/* <div className="for-bands-banner">
           <h2 >Applications to play in 2024 Porchfest will be open April 1 - June 1. We can't wait to hear from you!</h2>
-        </div>
+        </div> */}
         <div className="padded-container">
           <div className="half-flex">
             <div className="neon-box" >
@@ -35,7 +35,7 @@ const ForBands = () => {
 
                 <div className="centered">
                   <div className="" style={{marginRight : 20}}>
-                    <a className="ctaPrimary" rel="noreferrer" target="_blank">Apply to play - Apr 1</a>
+                    <a className="ctaPrimary" rel="noreferrer" target="_blank" href="https://forms.gle/SEP2E2WdjpsVzcrK9">Apply to play</a>
                   </div>
 
                   <div >
@@ -71,11 +71,15 @@ const ForBands = () => {
                       At Porchfest, bands will be scattered throughout the Wedge neighborhood of Uptown playing overlapping concerts on porches, in yards, wherever they fit. Attendees will wander the neighborhood listening to your music. 
                       Our goal is to help connect Minnesotans to local bands while putting on an awesome event that celebrates the liveliness and cultural richness of Uptown.
                     </p>
+                    <p><b>
+                      We will do our best to accommodate as many bands as possible and are so grateful for the enthusiasm for this event - we feel it too!
+                    </b></p>
                     </p>
                     <h3>How to get involved:</h3>
                     <ul className="x">
-                      <li>Click the button below to inquire via form, or just email uptownporchfest@gmail.com</li>
-                      <li>Keep an eye out for an email containing your Porchfest details!</li>
+                      <li>Click the button below to inquire via form by June 1</li>
+                      <li>Keep an eye out for an email containing your application decision by June 15</li>
+                      <li>If selected as a Porchfest band, you will be assigned your porch by July 17</li>
                     </ul>
                   </div>
                 <div>
@@ -89,7 +93,7 @@ const ForBands = () => {
 
                 <div className="centered">
                   <div className="" style={{marginRight : 20}}>
-                    <a className="ctaPrimary" rel="noreferrer" target="_blank">Apply to Play - Apr 1</a>
+                    <a className="ctaPrimary" rel="noreferrer" target="_blank" href="https://forms.gle/SEP2E2WdjpsVzcrK9">Apply to Play</a>
                   </div>
 
                   <div >

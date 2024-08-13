@@ -1,8 +1,9 @@
-import { render } from 'react-dom';
+// import { render } from 'react-dom';
 import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-import { StrictMode, useState } from 'react';
+import { StrictMode } from 'react';
 import './App.css';
 import Bands from "./Bands";
+import Vendors from "./Vendors";
 import FAQ from "./FAQ";
 import Map from "./Map";
 import ForHosts from "./ForHosts";
@@ -65,6 +66,7 @@ function App() {
               <li><Link onClick={toggleNav} to="/for-hosts"><div>Porch Signup</div></Link></li>
               <li><Link onClick={toggleNav} to="/bands"><div>Who's Playing</div></Link></li>
               <li><Link onClick={toggleNav} to="/map"><div>Map</div></Link></li>
+              <li><Link onClick={toggleNav} to="/vendors"><div>Vendors</div></Link></li>
               <li><Link onClick={toggleNav} to="/FAQ"><div>FAQ</div></Link></li>
               <li id="ig-li"><Link to="https://www.instagram.com/uptownporchfest/">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
@@ -82,7 +84,7 @@ function App() {
             <Route path="/for-hosts" element={<ForHosts />} />
             <Route path="/for-bands" element={<ForBands />} />
             <Route path="/faq" element={<FAQ />} />
-
+            <Route path="/vendors" element={<Vendors />} />
           </Routes>
         </div>
           <footer>
