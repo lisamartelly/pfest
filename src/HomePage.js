@@ -9,7 +9,7 @@ import ugPrintingLogo from "./img/Underground_Printing_Logo.png";
 import upsLogo from "./img/ups-store-logo.jpg";
 import metLogo from "./img/metcolor.png";
 // import fireAndNiceLogo from "./img/70710logo.png"
-import mapPdf from "./resources/2024-porchfest-map.pdf";
+import mapPdf from "./resources/2024-porchfest-mapv2.pdf";
 
 import "./HomePage.css";
 
@@ -28,7 +28,7 @@ const HomePage = () => {
 
         <div className="page-content">
           <div className="padded-container">
-            <div style={{ width: "100%" }} className="homepage-info-banner">
+            <div className="homepage-info-banner">
               <h2>It's Time to Porchfest!</h2>
               <p>
                 Come on out and have a great day with all of us! And remember:
