@@ -29,24 +29,64 @@ const HomePage = () => {
         <div className="page-content">
           <div className="padded-container">
             <div className="homepage-info-banner">
+              <h2>Thank you!</h2>
+              <p>
+                Thank you for all of the hard work and talents shared by all of
+                our amazing bands, hosts, volunteers, vendors, and attendees!
+                Follow us on instagram for the earliest updates on how to get
+                involved next year! We love you Uptown!
+              </p>
+              <p>
+                If you have any feedback you'd like to share about the event,
+                please do so{" "}
+                <a href="https://forms.gle/DMwUiVMznVYFRASF6">at this link</a>
+              </p>
+            </div>
+            {/* <div className="homepage-info-banner">
               <h2>It's Time to Porchfest!</h2>
               <p>
-                Come on out and have a great day with all of us! And remember:
-                this event is run entirely by volunteers, including the bands!
-                Make sure to show your appreciation and{" "}
-                <b>tip them generously</b>
+                We have <b>68</b> amazing bands across 33 stages all excited to
+                put on a great show for the neighborhood. Here are some last
+                minute reminders to make sure everyone has a great day:
               </p>
-              <p>
-                {" "}
-                We also need to be welcomed back next year, so{" "}
-                <b>be respectful</b> of the neighborhood and{" "}
-                <b>don't pee on anyone's lawn</b>
-              </p>
-              <p>
-                Attempting to park in Uptown is a terrible idea. Don't, and{" "}
-                <b>take the bus</b> instead. We even got FREE BUS PASSES from
-                our friends at Metro Transit! Kick back and enjoy the bus ride.
-              </p>
+              <ul className="x">
+                <li>
+                  This event is run entirely by volunteers, including the bands!
+                  Show your appreciation and <b>tip them generously</b>
+                </li>
+                <li>
+                  There will be musical activities <b>for kids of all ages</b>{" "}
+                  in Mueller Park from 2:30-4:30
+                </li>
+                <li>
+                  Trying to park in Uptown is a bad idea! So we got you all{" "}
+                  <b>
+                    <a
+                      href="https://www.surveymonkey.com/r/2024UptownPorchfestAug17"
+                      target="_blank"
+                    >
+                      free bus passes
+                    </a>
+                  </b>{" "}
+                  from our friends at Metro Transit! Kick back and enjoy the bus
+                  ride.
+                </li>
+                <li>
+                  There will be <b>food and drink vendors</b> all day in Mueller
+                  Park starting at 12:00! But if you want alcohol, we are not
+                  selling it, so don't expect to buy it from us...
+                </li>
+                <li>
+                  <b>Be respectful</b> of the neighborhood and don't pee on
+                  anyone's lawn
+                </li>
+                <li>
+                  <b>
+                    We are not scared of passing drizzle and the show will go
+                    on!
+                  </b>
+                </li>
+              </ul>
 
               <div className="centered">
                 <div className="" style={{ marginRight: 20 }}>
@@ -55,7 +95,7 @@ const HomePage = () => {
                     className="ctaPrimary"
                     target="_blank"
                   >
-                    Get your FREE bus pass (Aug 17 only)
+                    Get your FREE bus pass
                   </a>
                 </div>
 
@@ -65,7 +105,7 @@ const HomePage = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
 
           <div className="half-flex padded-container">
@@ -90,7 +130,7 @@ const HomePage = () => {
                   </div>
                 </div>
 
-                <div className="golden-flex">
+                {/* <div className="golden-flex">
                   <div className="gold-left">
                     <h2>How?</h2>
                   </div>
@@ -100,7 +140,7 @@ const HomePage = () => {
                     </h3>
                     <h3 style={{ marginTop: 0 }}>Band apps: Apr 1 - June 1</h3>
                   </div>
-                </div>
+                </div> */}
 
                 <div className="golden-flex">
                   <div className="gold-left">
@@ -108,13 +148,12 @@ const HomePage = () => {
                   </div>
                   <div className="gold-right">
                     <h3 className="left-justify">
-                      Porches, yards, and driveways throughout the Wedge
-                      neighborhood of Uptown, Minneapolis
+                      Porches and yards across Uptown, Minneapolis
                     </h3>
                   </div>
                 </div>
                 <div className="centered">
-                  <div className="" style={{ marginRight: 20 }}>
+                  {/* <div className="" style={{ marginRight: 20 }}>
                     <a href="/for-bands" className="ctaPrimary">
                       Band Signup
                     </a>
@@ -123,6 +162,11 @@ const HomePage = () => {
                   <div>
                     <a href="/for-hosts" className="ctaPrimary">
                       Porch Signup
+                    </a>
+                  </div> */}
+                  <div>
+                    <a href={mapPdf} className="ctaPrimary" target="_blank">
+                      Download the event map
                     </a>
                   </div>
                 </div>
@@ -197,7 +241,7 @@ const HomePage = () => {
                 the way.
               </p>
 
-              <div className="centered">
+              {/* <div className="centered">
                 <div className="" style={{ marginRight: 20 }}>
                   <a href="/for-bands" className="ctaPrimary">
                     Band Signup
@@ -209,7 +253,7 @@ const HomePage = () => {
                     Porch Signup
                   </a>
                 </div>
-              </div>
+              </div> */}
             </div>
             <div className="home-image-half">
               <img src={img3} alt="pfest" id="img3" className="fancy-img" />

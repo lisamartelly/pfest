@@ -9,6 +9,7 @@ import Map from "./Map";
 import ForHosts from "./ForHosts";
 import ForBands from "./ForBands";
 import HomePage from "./HomePage";
+import TipTheBands from "./TipTheBands";
 
 const toggleNav = () => {
   let navMenu = document.querySelector("#main-nav");
@@ -85,6 +86,11 @@ function App() {
                       <div>Map</div>
                     </Link>
                   </li>
+                  <li>
+                    <Link onClick={toggleNav} to="/tipthebands">
+                      <div>Tip The Bands!</div>
+                    </Link>
+                  </li>
                   {/* <li>
                     <Link onClick={toggleNav} to="/vendors">
                       <div>Vendors</div>
@@ -120,6 +126,7 @@ function App() {
               <Route path="/for-bands" element={<ForBands />} />
               <Route path="/faq" element={<FAQ />} />
               <Route path="/vendors" element={<Vendors />} />
+              <Route path="/tipthebands" element={<TipTheBands />} />
             </Routes>
           </div>
           <footer>
