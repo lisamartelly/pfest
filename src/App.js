@@ -10,6 +10,7 @@ import ForHosts from "./ForHosts";
 import ForBands from "./ForBands";
 import HomePage from "./HomePage";
 import TipTheBands from "./TipTheBands";
+import About from "./About";
 
 const toggleNav = () => {
   let navMenu = document.querySelector("#main-nav");
@@ -41,7 +42,7 @@ function App() {
                   <Link id="logo-link" to="/">
                     <div id="logo-div">
                       <p className="script">Uptown Porchfest</p>
-                      <p className="date">Aug 17, 2024</p>
+                      <p className="date">Aug 16, 2025</p>
                     </div>
                   </Link>
                   <div id="ig-div">
@@ -66,7 +67,7 @@ function App() {
                 </div>
 
                 <ul id="main-nav">
-                  {/* <li>
+                  <li>
                     <Link onClick={toggleNav} to="/for-bands">
                       <div>Band Signup</div>
                     </Link>
@@ -75,22 +76,22 @@ function App() {
                     <Link onClick={toggleNav} to="/for-hosts">
                       <div>Porch Signup</div>
                     </Link>
-                  </li> */}
-                  <li>
+                  </li>
+                  {/* <li>
                     <Link onClick={toggleNav} to="/bands">
                       <div>Bands Playing</div>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link onClick={toggleNav} to="/map">
-                      <div>Map</div>
+                      <div>2024 Map</div>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link onClick={toggleNav} to="/tipthebands">
                       <div>Tip The Bands!</div>
                     </Link>
-                  </li>
+                  </li> */}
                   {/* <li>
                     <Link onClick={toggleNav} to="/vendors">
                       <div>Vendors</div>
@@ -127,6 +128,7 @@ function App() {
               <Route path="/faq" element={<FAQ />} />
               <Route path="/vendors" element={<Vendors />} />
               <Route path="/tipthebands" element={<TipTheBands />} />
+              <Route path="/about" element={<About />} />
             </Routes>
           </div>
           <footer>

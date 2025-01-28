@@ -147,13 +147,12 @@ body {
 .homepage-hero {
   background: linear-gradient(
       180deg,
-      rgba(78, 79, 84, 0.7) 0%,
+      rgba(78, 79, 84, 0.8) 0%,
       rgba(255, 255, 255, 0) 90%
     ),
-    url(./img/Okahurst-2019.jpg);
+    url(./img/somerville_porchfest_2021.jpg);
   background-size: cover;
-  height: 400px;
-  background-position: center;
+  height: 600px;
 }
 
 .homepage-hero h2 {

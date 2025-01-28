@@ -13,7 +13,7 @@ import mapPdf from "./resources/2024-porchfest-mapv2.pdf";
 
 import "./HomePage.css";
 
-const countDownDate = new Date("Aug 17, 2024 12:00:00").getDate();
+const countDownDate = new Date("Aug 16, 2025 12:00:00").getDate();
 const now = new Date().getDate();
 const daysAway = countDownDate - now;
 
@@ -28,7 +28,7 @@ const HomePage = () => {
 
         <div className="page-content">
           <div className="padded-container">
-            <div className="homepage-info-banner">
+            {/* <div className="homepage-info-banner">
               <h2>Thank you!</h2>
               <p>
                 Thank you for all of the hard work and talents shared by all of
@@ -41,7 +41,7 @@ const HomePage = () => {
                 please do so{" "}
                 <a href="https://forms.gle/DMwUiVMznVYFRASF6">at this link</a>
               </p>
-            </div>
+            </div> */}
             {/* <div className="homepage-info-banner">
               <h2>It's Time to Porchfest!</h2>
               <p>
@@ -125,7 +125,7 @@ const HomePage = () => {
                     <h2>When?</h2>
                   </div>
                   <div className="gold-right">
-                    <h3 style={{ marginBottom: 0 }}>August 17, 2024</h3>
+                    <h3 style={{ marginBottom: 0 }}>August 16, 2025</h3>
                     <h3 style={{ marginTop: 0 }}>1pm - 5pm</h3>
                   </div>
                 </div>
@@ -164,11 +164,11 @@ const HomePage = () => {
                       Porch Signup
                     </a>
                   </div> */}
-                  <div>
+                  {/* <div>
                     <a href={mapPdf} className="ctaPrimary" target="_blank">
                       Download the event map
                     </a>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -193,7 +193,7 @@ const HomePage = () => {
                 </b>{" "}
                 that attendees can enjoy while wandering the neighborhood.
               </p>
-              <div class="divider div-transparent div-dot"></div>
+              <div class="divider div-dot"></div>
               <p>
                 {" "}
                 It provides an opportunity to explore the Wedge neighborhood of
@@ -260,7 +260,7 @@ const HomePage = () => {
             </div>
           </div>
 
-          <div className="padded-container" style={{ marginTop: 30 }}>
+          {/* <div className="padded-container" style={{ marginTop: 30 }}>
             <h2>Thank you to our Sponsors!</h2>
             <p>
               That's right, we got sponsors! These local businesses generously
@@ -269,51 +269,51 @@ const HomePage = () => {
               logistics. We are grateful to have them in our community!
             </p>
             <div className="sponsorImages">
-              <a href="https://wrecktanglepizza.com/">
+              {/* <a href="https://wrecktanglepizza.com/">
                 <img
                   className="sponsorImage"
                   src={wrecktangleLogo}
                   alt="wrecktangle logo"
                   id="wrecktangleLogo"
                 />
-              </a>
-              <a href="https://www.instagram.com/calltheshotsproduction/">
+              </a> */}
+          {/* <a href="https://www.instagram.com/calltheshotsproduction/">
                 <img
                   className="sponsorImage"
                   src={ctsLogo}
                   alt="call the shots Logo"
                   id="ctsLogo"
                 />
-              </a>
-              {/* <a href="https://redcowmn.com/minneapolis-uptown/"><img className="sponsorImage" src = {redCowLogo} alt="red cow logo" id="redCowLogo"/></a> */}
-              <a href="https://undergroundshirts.com/pages/custom-t-shirt-printing-minneapolis-mn">
+              </a> */}
+          {/* <a href="https://redcowmn.com/minneapolis-uptown/"><img className="sponsorImage" src = {redCowLogo} alt="red cow logo" id="redCowLogo"/></a> */}
+          {/* <a href="https://undergroundshirts.com/pages/custom-t-shirt-printing-minneapolis-mn">
                 <img
                   className="sponsorImage"
                   src={ugPrintingLogo}
                   alt="underground printing logo"
                   id="ugPrintingLogo"
                 />
-              </a>
-              {/* <a href="https://www.updownarcadebar.com/minneapolis/"><img className="sponsorImage" src = {upDownLogo} alt="updown logo" id="upDownLogo"/></a> */}
-              <a href="https://locations.theupsstore.com/mn/minneapolis/2801-hennepin-ave-s">
+              </a> */}
+          {/* <a href="https://www.updownarcadebar.com/minneapolis/"><img className="sponsorImage" src = {upDownLogo} alt="updown logo" id="upDownLogo"/></a> */}
+          {/* <a href="https://locations.theupsstore.com/mn/minneapolis/2801-hennepin-ave-s">
                 <img
                   className="sponsorImage"
                   src={upsLogo}
                   alt="ups store logo"
                   id="upsLogo"
                 />
-              </a>
-              {/* <a href="https://www.fireandnicemn.com/"><img className="sponsorImage" src = {fireAndNiceLogo} alt="fire and nice logo" id="fireAndNiceLogo"/></a> */}
-              <a href="https://www.metrotransit.org/">
+              </a> */}
+          {/* <a href="https://www.fireandnicemn.com/"><img className="sponsorImage" src = {fireAndNiceLogo} alt="fire and nice logo" id="fireAndNiceLogo"/></a> */}
+          {/* <a href="https://www.metrotransit.org/">
                 <img
                   className="sponsorImage"
                   src={metLogo}
                   alt="metro transit logo"
                   id="metroTransitLogo"
                 />
-              </a>
-            </div>
-          </div>
+              </a> */}
+          {/* </div>
+          </div> */}
         </div>
       </div>
     </div>
